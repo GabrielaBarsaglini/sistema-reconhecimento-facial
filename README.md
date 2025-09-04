@@ -1,4 +1,4 @@
-Reconhecimento Facial com TensorFlow, MTCNN e FaceNet
+### Reconhecimento Facial com TensorFlow, MTCNN e FaceNet
 
 Este projeto implementa um sistema de detecção e reconhecimento facial utilizando:
 
@@ -10,7 +10,7 @@ SVM (Scikit-learn) → classificação de rostos a partir dos embeddings.
 
 Dataset LFW (Labeled Faces in the Wild) → base pública de rostos.
 
-
+### Objetivo
 Detectar múltiplas faces em imagens.
 
 Extrair representações vetoriais (embeddings) com FaceNet.
@@ -20,7 +20,7 @@ Treinar um classificador SVM para reconhecer as pessoas.
 Avaliar o modelo e visualizar as predições com imagens e rótulos.
 
 
-🔧 Tecnologias
+ ### Tecnologias
 
 Python 3
 
@@ -37,7 +37,7 @@ Scikit-learn
 Matplotlib
 
 
- Pipeline
+### Pipeline
 
 Carregamento do dataset
 
@@ -59,12 +59,6 @@ Treinamento do classificador
 
 SVM com kernel RBF.
 
-Avaliação
-
 classification_report e matriz de confusão.
 
 Visualização das predições com matplotlib.
-
-
-
-Quer que eu monte também um guia de instalação (com requirements.txt) para rodar fora do Colab?
